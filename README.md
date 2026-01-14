@@ -1,4 +1,4 @@
-# 📱 Personalized Content Feed Ranking System
+# Personalized Content Feed Ranking System
 
 A production-ready machine learning system for real-time social media content ranking with integrated A/B testing capabilities. This system demonstrates how modern social platforms optimize user engagement through intelligent feed curation.
 
