@@ -2,19 +2,19 @@
 
 A production-ready machine learning system for real-time social media content ranking with integrated A/B testing capabilities. This system demonstrates how modern social platforms optimize user engagement through intelligent feed curation.
 
-## 🎯 Overview
+## Overview
 
 This application simulates a social media content ranking system that personalizes user feeds based on engagement predictions. It showcases the complete ML lifecycle from data generation to model deployment and experimentation.
 
-## ✨ Key Features
+## Key Features
 
-### 🤖 Machine Learning Models
+### Machine Learning Models
 - **Dual Model Architecture**: Control (baseline) and Treatment (optimized) models for comparison
 - **LightGBM Regressors**: Fast, efficient gradient boosting for engagement prediction
 - **Real-time Scoring**: Sub-50ms latency for production-grade performance
 - **Feature Engineering**: 15+ engineered features including temporal, behavioral, and content signals
 
-### 📊 Interactive Dashboards
+### Interactive Dashboards
 Four comprehensive tabs providing complete system visibility:
 
 1. **Overview Dashboard**
@@ -41,7 +41,7 @@ Four comprehensive tabs providing complete system visibility:
    - Engagement distribution analysis
    - Production readiness indicators
 
-## 🔧 Technical Architecture
+## Technical Architecture
 
 ### Data Generation
 - **5,000 users** with realistic demographic and behavioral profiles
@@ -91,7 +91,7 @@ Both models use regression objectives to predict engagement scores based on:
 - Shares (weight: 5)
 - View duration >5s (weight: 2)
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 ```bash
@@ -115,7 +115,7 @@ streamlit run app.py
 4. **Run A/B Tests** - Compare model performance with simulated experiments
 5. **Analyze Performance** - Review model metrics and feature importance
 
-## 📈 Performance Metrics
+## Performance Metrics
 
 ### Latency
 - Target: <50ms for real-time ranking
@@ -132,7 +132,7 @@ streamlit run app.py
 - Feature importance analysis for interpretability
 - Continuous monitoring for production readiness
 
-## 🧪 A/B Testing Methodology
+## A/B Testing Methodology
 
 The system implements a rigorous experimentation framework:
 
@@ -156,7 +156,7 @@ The system implements a rigorous experimentation framework:
 | **UI Framework** | Streamlit | Rapid dashboard development |
 | **Model Validation** | Scikit-learn | Train/test splits and scoring |
 
-## 📊 Data Schema
+## Data Schema
 
 ### Users Table
 - `user_id`: Unique identifier
@@ -181,7 +181,7 @@ The system implements a rigorous experimentation framework:
 - `view_duration_sec`: Time spent
 - `engagement_score`: Composite metric
 
-## 🎓 Use Cases
+## Use Cases
 
 This system demonstrates concepts relevant to:
 - Social media feed optimization
@@ -191,7 +191,7 @@ This system demonstrates concepts relevant to:
 - Video streaming recommendations
 - Advertisement targeting
 
-## 🔍 Key Insights
+## Key Insights
 
 The system reveals important patterns in content ranking:
 - **Temporal Effects**: Engagement varies significantly by hour and day
@@ -200,7 +200,7 @@ The system reveals important patterns in content ranking:
 - **Video Performance**: Video content shows 4% higher engagement than static posts
 - **Completion Rates**: View duration is a strong signal for content quality
 
-## 🚦 Production Considerations
+## Production Considerations
 
 For real-world deployment, consider:
 - **Scalability**: Batch prediction for millions of users
@@ -210,7 +210,7 @@ For real-world deployment, consider:
 - **Fairness**: Bias detection and mitigation strategies
 - **Privacy**: User data protection and compliance
 
-## 📝 Future Enhancements
+## Future Enhancements
 
 Potential improvements include:
 - Deep learning models (neural networks)
@@ -221,11 +221,11 @@ Potential improvements include:
 - Advanced A/B testing (multi-armed bandits)
 - Explainable AI for transparency
 
-## 📄 License
+## License
 
 This is an educational demonstration system. Adapt for your specific use case.
 
-## 🤝 Contributing
+## Contributing
 
 This is a standalone demonstration. Feel free to fork and customize for your needs.
 
